@@ -5,4 +5,5 @@ import store from './store'
 import '@/scss/global.scss'
 import '@/scss/same.scss'
 
+
 createApp(App).use(store).use(router).mount('#app')
