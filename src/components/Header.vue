@@ -97,6 +97,7 @@ export default {
   top: 0;
   left: 0;
   background: white;
+  box-shadow: 0 1px 8px rgb(83 109 122 / 29%);
   &__link {
     font-size: 0;
     display: inline-block;
@@ -245,6 +246,7 @@ export default {
       width: 30px;
       height: 30px;
       z-index: 2;
+      -webkit-tap-highlight-color: transparent;
     }
     &__nav {
       transition: top 0.3s;
@@ -253,6 +255,7 @@ export default {
       background: white;
       top: -100%;
       left: 0;
+      max-width: 100%;
       .header__list {
         flex-direction: column;
         text-align: center;
@@ -276,8 +279,6 @@ export default {
       }
     }
     .active {
-      z-index: 0;
-      max-width: 100%;
       top: 80px;
       left: 0;
     }
