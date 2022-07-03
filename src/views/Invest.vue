@@ -26,7 +26,7 @@
       <section class="invest-block__company">
         <div
           class="invest-block__wrapper-company"
-          v-for="item in investFooterInfoCompany"
+          v-for= "item in investFooterInfoCompany"
           :key="item"
         >
           <a href="#" class="invest-block__link-img">
